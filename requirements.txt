@@ -2,3 +2,9 @@ Django==5.2.7
 asgiref==3.10.0
 sqlparse==0.5.3
 tzdata==2025.1
+
+# Testing and code quality tools
+black==24.10.0
+flake8==7.1.1
+coverage==7.6.8
+coveralls==4.0.1
