@@ -15,4 +15,6 @@ class BasicTestCase(TestCase):
     def test_true_is_true(self):
         """Test that True is True"""
         self.assertTrue(True)
+
+
 # Test Travis CI via PR
