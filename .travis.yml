@@ -14,7 +14,7 @@ script:
   - coverage run --source=polls,mysite manage.py test
 
 after_success:
-  - coveralls --service=travis-ci
+  - coveralls
 
 deploy:
   provider: elasticbeanstalk
