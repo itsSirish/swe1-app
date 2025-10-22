@@ -20,7 +20,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "mysite-app"
-  env: "mysite-env"
+  env: "mysite-env-v2"
   bucket_name: "elasticbeanstalk-us-east-1-464975960156"
   bucket_path: "mysite-app"
   on:
