@@ -2,3 +2,7 @@ Django==5.2.7
 asgiref==3.10.0
 sqlparse==0.5.3
 tzdata==2025.1
+black
+flake8
+coverage
+coveralls
